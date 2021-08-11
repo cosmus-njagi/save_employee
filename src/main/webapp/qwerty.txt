@@ -1,0 +1,11 @@
+A page directive (<%@page ... %>) sets the content type returned by the page.
+
+Tag library directives (<%@taglib ... %>) import custom tag libraries.
+
+jsp:useBean is a standard element that creates an object containing a collection of locales and initializes an identifier that points to that object.
+
+JSP expression language expressions (${ }) retrieve the value of object properties. The values are used to set custom tag attribute values and create dynamic content.
+
+Custom tags (see Chapter 8, Custom Tags in JSP Pages) set a variable (c:set), iterate over a collection of locale names (c:forEach), and conditionally insert HTML text into the response (c:if, c:choose, c:when, c:otherwise).
+
+jsp:setProperty is another standard element that sets the value of an object property.
